@@ -1,0 +1,35 @@
+td
+{
+    height:100px;
+    width:100px;
+    
+   
+}
+.vertical_line
+{
+    border-left: 2px solid gray;
+
+}
+
+.horizontal_line
+{
+    border-bottom: 2px solid gray;
+  
+ 
+}
+
+.both_line
+{
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+   
+}
+table{
+    border-spacing:0px;
+}
+
+#main{
+    margin-top:15%;
+    margin-left:35%;
+
+}
