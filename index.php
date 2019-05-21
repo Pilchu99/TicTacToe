@@ -14,12 +14,12 @@
     <table>
         <tr>
             <td class="horizontal_line"><img src="" class="field"></td>
-            <td class="both_line"  ><img src=""class="field"></td>
+            <td class="both_line"><img src=""class="field"></td>
             <td class="both_line"><img src=""class="field"></td>
         </tr>
         <tr >
             <td class="horizontal_line"><img src=""class="field"></td>
-            <td class="both_line"  ><img src=""class="field"></td>
+            <td class="both_line"><img src=""class="field"></td>
             <td class="both_line"><img src=""class="field"></td>
         </tr>
         <tr>
