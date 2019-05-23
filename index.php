@@ -3,19 +3,17 @@
 <head>
 <title>Tic Tac Toe</title>
 <meta charset="utf-8"/>
-<link rel="stylesheet"href="style.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/logic.js"></script> 
+<link rel="stylesheet"href="style.css" />
 </head>
 <body>
 
 <div id="main">
-    
-    <form>  
-    X<input type="radio" id="X" name="choice" > <br>
-    O<input type="radio" id="O" name="choice"/><br>
-    
+
   
+    <form>  
+   
     <input type="reset" value="RESET"/>
     </form>
     
