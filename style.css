@@ -20,10 +20,12 @@ td
     border-left: 2px solid gray;
    
 }
-table{
+table
+{
     border-spacing:0px;
 }
-#main{
+#main
+{
     margin-top:15%;
     margin-left:35%;
 
@@ -34,7 +36,7 @@ img{
 }
 
 
-#prompt1
+#prompt1,#prompt2
 {
     position: absolute;
     top:25%;
@@ -47,7 +49,7 @@ img{
     height:250px;
 
 }
-#get_nickname
+input[type="text"]
 {
     width:250px;
     height:40px;
@@ -55,7 +57,7 @@ img{
     top:90px;
     left:20%;
 }
-#p_nickname
+div > p
 {
     font-size: 30px;
     font-family:Comic Sans MS;
@@ -93,7 +95,8 @@ img{
     font-family:Comic Sans MS;
     font-size:20px;
 }
-input[type="text"]{
+input[type="text"]
+{
     font-size:20px;
     font-family:Comic Sans MS;
     
