@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<input type="button" onclick="window.location.href='hotSeats.php'">
+<input type="button" onclick="window.location.href='hotSeats.php'" value="Hot seats">
 <input type="button" onclick="window.location.href='hotSeats.php'">
 </body>
 </html>

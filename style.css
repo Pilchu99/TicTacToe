@@ -1,3 +1,4 @@
+
 td
 {
     height:100px;
@@ -28,7 +29,7 @@ table
 {
     margin-top:15%;
     margin-left:35%;
-
+    
 }
 img{
     height:100px;
@@ -105,10 +106,12 @@ form > p
 {
     width:250px;
     height:200px;
-    background-color: gray;
+    background-image: linear-gradient(-90deg,#f2f2f2, #666666);
     position:absolute;
-    top:15%;
+    top:5%;
     left:41%;
+    border: 5px outset black;
+    
 
 }
 #score > p:first-of-type
@@ -119,6 +122,7 @@ form > p
     text-transform: uppercase;
     text-align: center;
     margin-top:15px;
+    margin-bottom:0px;
     
 }
 #players
@@ -127,23 +131,45 @@ form > p
     font-weight: bold;
     font-family:Comic Sans MS;
     text-align: center;
+    word-spacing: 50px;
   
 
+
+}
+
+#notice{
+    padding-top:25px;
+}
+#score1, #score2{
+  
+    
+    display:inline;
+    text-align:center;
+    font-weight: bold;
+    font-family:Comic Sans MS;
+}
+#score1{
+    
+    margin-right:33%;
+    margin-left:30%;
+    
+}
+
+
+#score2{
+   
+    margin-right:15%;
 
 }
 #score > input[type="radio"]
 {   
-    margin-top:15%;
+    margin-top:5%;
     margin-left: 30%;
-  
+    
 }
 #score > input[type="reset"]
 {
-    margin-top:15%;
     margin-left: 40%;
-  
+   
 
-}
-#notice{
-    padding-top:25px;
 }
