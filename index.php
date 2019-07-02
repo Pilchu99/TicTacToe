@@ -9,6 +9,6 @@
 <body>
 
 <input type="button" onclick="window.location.href='hotSeats.php'" value="Hot seats">
-<input type="button" onclick="window.location.href='hotSeats.php'">
+<input type="button" onclick="window.location.href='playerVsCpu.php'" value="Player VS CPU">
 </body>
 </html>
