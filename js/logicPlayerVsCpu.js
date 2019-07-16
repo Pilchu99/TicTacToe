@@ -57,7 +57,7 @@ $(document).ready(function(){
 
 $("#menu").click(function(){
 
-  window.location.href='index.php';
+  window.location.href='index.html';
 
 })
 var occupiedFields=[];
@@ -74,7 +74,7 @@ $("#prompt1").submit(function(){
             player2="CPU"
                   var  text=player1+" "+player2;
                  $("#prompt1").remove();
-                   $.ajax({url: "html/main.php", async:"false" , success: function(result){    
+                   $.ajax({url: "html/main.html", async:"false" , success: function(result){    
                     $("body").html(result);
                   },complete: function(result){
                     $("#players").text(text);

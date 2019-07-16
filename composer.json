@@ -1,0 +1,9 @@
+{
+    "require": {
+        "ghedipunk/php-websockets": "dev-master",
+        "cboden/ratchet": "^0.4.1"
+
+        
+        }
+        
+    }

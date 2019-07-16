@@ -62,7 +62,7 @@ $(document).ready(function(){
 
 $("#menu").click(function(){
 
-  window.location.href='index.php';
+  window.location.href='index.html';
 
 })
 var occupiedFields=[];
@@ -85,7 +85,7 @@ $("#prompt1").submit(function(){
                  var  text=player1+" "+player2;
                   
                    $("#prompt2").remove();
-                   $.ajax({url: "html/main.php", async:"false" , success: function(result){    
+                   $.ajax({url: "html/main.html", async:"false" , success: function(result){    
                     $("body").html(result);
                   },complete: function(result){
                     $("#players").text(text);
